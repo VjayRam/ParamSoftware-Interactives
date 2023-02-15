@@ -42,14 +42,14 @@ while done == False:
         if event.type == pygame.MOUSEBUTTONDOWN:
             # Generate a random color
             r = 0
-            g = random.randrange(0,255)
+            g = 0
             b = random.randrange(0,255)
             color = [r, g, b]
 
             # Draw a circle at the mouse position
         if left_click:
             r = 0
-            g = random.randrange(0,255)
+            g = 0
             b = random.randrange(0,255)
             color = [r, g, b]
             sym_four(color,x,y)
